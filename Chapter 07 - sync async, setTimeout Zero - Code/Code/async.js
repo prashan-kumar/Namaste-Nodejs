@@ -5,7 +5,7 @@ console.log("Asynchronous Javascript")
 
 var a = 5;
 var b = 10;
-
+// In a file system, UTF-8 (Unicode Transformation Format - 8-bit) is a character encoding standard used to store and represent text. It is the most widely used encoding format because of its efficiency and compatibility with different languages and systems.
 fs.readFileSync("./file.txt", "utf8");
 console.log("This will execute only after reading the file")
 
